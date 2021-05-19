@@ -1,0 +1,81 @@
+/*font import*/
+@font-face { 
+font-family:BebasNeue;
+ src: url(BebasNeue.ttf);
+}
+/*Menu style*/
+nav{
+				width:100%;
+				margin:0 auto;
+				top:0;
+}
+nav:before{
+				content:'';
+				display:block;
+				height:80px;
+				width:100%;
+				background:#0f111d;
+				position:absolute;
+				left:0;
+				z-index:-1;
+			
+}
+ul{
+				margin:0;
+				padding:0;
+				list-style:none;
+				height:70px;
+				
+}
+ul li{
+				float:left;
+}
+ul li a{
+				color:#00ff18;
+				display:block;
+				height:80px;
+				padding:0 30px;
+				text-transform:uppercase;
+				text-decoration:none;
+				line-height:80px;
+}
+a:active{
+				color:red;
+}
+a:hover{
+				background:#b2421e;
+			
+}
+/*page style*/
+body{
+				background-size:cover;
+				background-attachments:fixed;
+}
+p{
+				margin-left:5%;
+				margin-top:5%;
+				margin-bottom:1em;
+				margin-right:15px;
+				font-size:30px;
+}
+p.GoodLuck{
+				text-align:right;
+				margin-right:10%;
+}
+div{
+		   text-align:center;
+		   margin-top:1em;
+}
+
+h1{
+				font-family:BebasNeue;
+				text-align:center;
+				margin-top:1em;
+				font-size:50px;
+}
+h2{
+				font-family:BebasNeue;
+				margin-top:1em;
+				font-size:40px;
+				text-align:center;
+}
